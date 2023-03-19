@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main is the entry point
- * return should return a 0
+ * main - entry point
+ *
+ * return - Always 0
+ *
+ *Description: Prints a message to the standard output
  */
 int main(void)
 {
