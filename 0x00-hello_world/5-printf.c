@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * return - Always 0
+ * Return: Always 0(success)
  *
- *Description: Prints a message to the standard output
+ *Description: Prints a message to the standard output using printf
  */
 int main(void)
 {
