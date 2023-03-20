@@ -8,20 +8,18 @@ int main(void)
 {
 	int i, j, k;
 
-	for (i = 0; i < 1000; i++)
+	for (i = 0; i < 8; i++)
 	{
-	j = i / 100;
-	k = i / 10 % 10;
-	i %= 10;
 
-	if (j < k && k < i)
+	for (j = i + 1; j < 9; j++)
 	{
-	putchar(j + '0');
-	putchar(k + '0');
-	putchar(i + '0');
+	for (k = j + 1; k < 10; k++)
+	{
+	putchar(j % 10 + '0');
+	putchar(k % 10 + '0');
+	putchar(i % 10 + '0');
 
-	if (j != 7 || k != 8 || i != 9)
-	{
+	if (i == 7 && j == 8 && k == 9)
 	putchar(',');
 	putchar(' ');
 	}
