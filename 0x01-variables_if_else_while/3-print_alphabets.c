@@ -10,8 +10,8 @@ int main(void)
 	char C;
 
 	for (C = 'a'; C <= 'Z'; C++)
-	putchar(c);
-	for (C = 'A'; C <='Z'; C++)
+	putchar(C);
+	for (C = 'A'; C <= 'Z'; C++)
 	putchar(C);
 	putchar('\n');
 	return (0);
