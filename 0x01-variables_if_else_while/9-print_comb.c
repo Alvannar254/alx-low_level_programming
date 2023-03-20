@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	int i
+	int i;
 
 	{
-	putchar(i)
+	putchar(i);
 	if (i != 57)
 	{
 	putchar(',');
