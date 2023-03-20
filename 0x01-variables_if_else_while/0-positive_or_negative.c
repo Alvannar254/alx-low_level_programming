@@ -3,11 +3,11 @@
 #include <stdlib.h>
 
 /**
- * main - Entry point
+ * main - Entry point of the program
  *
- * return - Always 0 (success)
+ * return - always 0(success)
  *
- *Description: The assigns random numbers to the variable n
+ * The program assigns a random number to  a variable n
  */
 int main(void)
 {
