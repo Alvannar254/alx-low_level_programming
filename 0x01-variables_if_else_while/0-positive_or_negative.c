@@ -2,12 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 
-/*
- * main - Entry point of the program
+/**
+ * main - entry point of the program
  *
- * Return: Always 0 (success)
+ *  Return: Always 0 (success)
  *
- * The program assigns a random number to  a variable n
  */
 int main(void)
 {
