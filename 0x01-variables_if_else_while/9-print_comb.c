@@ -7,24 +7,14 @@
  */
 int main(void)
 {
-	int i, j, k, l;
+	int i
 
-	for (i = 0; i < 10; i++)
 	{
-	for (j = i + 1; j < 10; j++)
+	putchar(i)
+	if (i != 57)
 	{
-	for (k = j + 1; k < 10; k++)
-	{
-	for (l = k + 1; l < 10; l++)
-	{
-	putchar(i + '0');
-	putchar(j + '0');
-	putchar(k + '0');
-	putchar(l + '0');
-	if (i != 6 || j != 7 || l != 9)
 	putchar(',');
-	}
-	}
+	putchar(' ');
 	}
 	}
 	putchar('\n');
