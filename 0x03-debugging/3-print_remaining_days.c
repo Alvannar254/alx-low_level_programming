@@ -1,4 +1,4 @@
-lude <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * print_remaining_days - takes a date and prints how many days are
@@ -42,7 +42,9 @@ void print_remaining_days(int month, int day, int year)
 	else
 	{
 	printf("Day of the year: %d\n", day_of_year);
-	printf("Remaining days: %d\n", 365 + ((year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) ? 1 : 0) - day_of_year);
+	printf("Remaining days: %d\n",
+			(365 + ((year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)) ?
+				1 : 0)) - day_of_year);
 	}
 }
 
