@@ -1,1 +1,1 @@
-project  on array , pointers and string
+Solutions for the task on pointers, arrays and strings
