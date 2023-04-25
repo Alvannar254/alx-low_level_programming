@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
-
+nclude "variadic.functions.h"
 /**
  * print_string - Prints strings
  * @separator: The string to be printed
  * @n: The number of strings passed to the function
  * @...: A variable number os dtrings
- *  Sescription: if separator is Null, it is not printed
+ *  Description: if separator is Null, it is not printed
  * Return 0 - if successful
  */
 void print_string(const char *separator, const unsigned int n, ...)
